@@ -64,7 +64,9 @@ class LLMConfig:
             concurrency=int(os.environ.get("LLM_CONCURRENCY", "4")),
         )
 
-    def validate(self) -> None:
+        cfg = LLMConfig.from_env()
+        if cfg.mock or cfg.is_usable():
+            llm = build_client(cfg)
         if self.mock:
             return
         if not self.base_url or not self.model:
