@@ -1,0 +1,214 @@
+{
+  "stages": [
+    {
+      "stage": "明确",
+      "count": 21,
+      "prefix": "M",
+      "note": "21 个明确项：结构模板，内容由教师 Word 与模型生成后填入，不是预设答案。",
+      "items": [
+        {
+          "id": "M01",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M02",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M03",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M04",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M05",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M06",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M07",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M08",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M09",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M10",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M11",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M12",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M13",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M14",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M15",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M16",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M17",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M18",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M19",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M20",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "M21",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "stage": "知",
+      "count": 4,
+      "prefix": "K",
+      "note": "4 个知项：每项必须带溯源（出自 Word 哪一段 / 哪条平台标准），无溯源不算完成。",
+      "items": [
+        {
+          "id": "K01",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "K02",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "K03",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "K04",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "stage": "形成构想",
+      "count": 6,
+      "prefix": "I",
+      "note": "6 个构想项：每项带评分与下一步，评分低的先不进入课堂讲稿。",
+      "items": [
+        {
+          "id": "I01",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "I02",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "I03",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "I04",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "I05",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        },
+        {
+          "id": "I06",
+          "title": "",
+          "status": "待生成",
+          "source": ""
+        }
+      ]
+    }
+  ]
+}

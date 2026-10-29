@@ -1,0 +1,62 @@
+{
+  "slots": {
+    "teacher_name": {
+      "desc": "授课教师姓名",
+      "type": "string",
+      "required": false
+    },
+    "lesson_date": {
+      "desc": "授课日期",
+      "type": "string",
+      "format": "date",
+      "required": false
+    },
+    "course_name": {
+      "desc": "课程名称",
+      "type": "string",
+      "required": true
+    },
+    "lesson_topic": {
+      "desc": "本节课主题",
+      "type": "string",
+      "required": true
+    },
+    "objectives": {
+      "desc": "教学目标列表",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "desc": "教学目标列表（单项）"
+      },
+      "required": true
+    },
+    "key_points": {
+      "desc": "知识点列表",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "desc": "知识点列表（单项）"
+      },
+      "required": false
+    },
+    "teaching_steps": {
+      "desc": "教学环节列表",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "desc": "教学环节列表（单项）"
+      },
+      "required": false
+    },
+    "homework": {
+      "desc": "作业要求",
+      "type": "string",
+      "required": false
+    },
+    "board_notes": {
+      "desc": "板书要点",
+      "type": "string",
+      "required": false
+    }
+  }
+}
