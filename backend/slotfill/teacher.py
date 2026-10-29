@@ -40,7 +40,12 @@ def upload_word(filename: str, docx_base64: str, extractor: str = "auto") -> dic
     doc = parse_bytes(raw, filename)
     llm = None
     if extractor != "code":
-        llm = build_client(LLMConfig.from_env())
+        # 不要在这里先建客户端：OpenAICompatClient 构造时会校验并在无模型时抛 500，
+        # 那样 auto 永远到不了流水线里“未配置 LLM 时退化为代码档”的分支。
+        # 只有真正配了模型（或 mock）时才建客户端；否则传 None，让流水线自己退化。
+        cfg = LLMConfig.from_env()
+        if cfg.mock or (cfg.base_url and cfg.model):
+            llm = build_client(cfg)
     result, trace = run_pipeline(document_text=doc.text, slots_payload=load_platform_slots(), extractor=extractor, llm=llm)
     return {"filename": filename, "chars": doc.chars, "text": doc.text, "extraction": result,
             "missing": trace.get("missing", []), "warnings": trace.get("warnings", []), "plans": load_plans()}
